@@ -1,7 +1,5 @@
 # Electronchik project.
 
-Online store "Elektronchik". React pagination implementation.
-
 > 🦾 Test task for verification 👁.
 
 ## Install:
