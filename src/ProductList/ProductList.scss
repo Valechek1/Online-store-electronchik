@@ -1,0 +1,19 @@
+$size: 5px;
+$posit: 0 auto;
+
+.conteiner {
+  margin: $posit;
+  display: flex;
+  flex-direction: column;
+  box-shadow: $size $size 10px $size black;
+  align-items: center;
+}
+
+.conteiner_title {
+  font-size: 10px;
+}
+
+.conteiner_text {
+  font-size: 10px;
+  width: 200px;
+}
