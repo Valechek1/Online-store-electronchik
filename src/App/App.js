@@ -9,11 +9,9 @@ import { useState } from "react/cjs/react.development";
 function App() {
   const [page, setPage] = useState(0);
   const [data, setData] = useState([]);
-  console.log(page, "Нач");
   useEffect(() => {
     getProductList(page)
       .then((data) => {
-        console.log(data);
         setData(
           data.map((el) => {
             return el;

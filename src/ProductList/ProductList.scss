@@ -5,15 +5,83 @@ $posit: 0 auto;
   margin: $posit;
   display: flex;
   flex-direction: column;
-  box-shadow: $size $size 10px $size black;
+  box-shadow: $size $size 10px $size rgb(10, 10, 9);
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 44vw;
+  height: 30vw;
+  margin-top: 2vw;
+  border-radius: 10%;
 }
 
 .conteiner_title {
-  font-size: 10px;
+  font-size: 2vw;
 }
 
 .conteiner_text {
-  font-size: 10px;
-  width: 200px;
+  font-size: 2vw;
+  background: #120e02;
+  background: -webkit-linear-gradient(to right, #120e02 0%, #1b16b5 100%);
+  background: -moz-linear-gradient(to right, #120e02 0%, #1b16b5 100%);
+  background: linear-gradient(to right, #120e02 0%, #1b16b5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.conteiner_price {
+  margin-top: 2vw;
+  font-size: 2vw;
+}
+
+:root {
+  --color-1: #186cb8;
+  --color-2: #2a9a9f;
+  --color-3: #f1b211;
+  --color-4: #e83611;
+  --color-5: #f9002f;
+}
+
+.colored {
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+}
+
+h3,
+h4 {
+  font-family: sans-serif;
+  font-size: 3vw;
+  font-weight: 900;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(
+    219deg,
+    var(--color-1) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-2) 20%,
+    var(--color-2) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-3) 40%,
+    var(--color-3) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-4) 60%,
+    var(--color-4) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-5) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.header_title {
+  width: max-content;
 }

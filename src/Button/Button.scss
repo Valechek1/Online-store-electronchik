@@ -1,5 +1,36 @@
 .box_button {
   display: flex;
   justify-content: center;
-  margin-top: 4vw;
+  margin-top: 2vw;
+}
+
+button.blubtn {
+  width: 15vw;
+  text-align: center;
+  display: block;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 3vw;
+  border: #1071ff 1px solid;
+  color: #1071ff;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 20px auto;
+  transition: 0.5s;
+  border-radius: 0px;
+}
+button.blubtn:hover {
+  top: 5px;
+  transition: 0.5s;
+  color: #10ff58;
+  border: #10ff58 1px solid;
+  border-radius: 10px;
+}
+button.blubtn:active {
+  color: #000;
+  border: #1a1a1a 1px solid;
+  transition: 0.07s;
+  background-color: #fff;
 }
