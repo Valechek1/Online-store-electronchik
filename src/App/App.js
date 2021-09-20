@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import ProductList from "../ProductList/ProductList";
 import { getProductList } from "../api";
 import { useEffect } from "react";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { Fragment } from "react";
 
 function App() {
