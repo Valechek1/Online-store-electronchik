@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "../ProductList/ProductList.scss";
 
 function ProductList({ data }) {
   return (
-    <>
+    <Fragment>
       {data.map((prod) => {
         return (
           <div key={prod.id} className="conteiner">
@@ -13,7 +13,7 @@ function ProductList({ data }) {
           </div>
         );
       })}
-    </>
+    </Fragment>
   );
 }
 

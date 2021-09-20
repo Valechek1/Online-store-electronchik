@@ -5,6 +5,7 @@ import ProductList from "../ProductList/ProductList";
 import { getProductList } from "../api";
 import { useEffect } from "react";
 import { useState } from "react/cjs/react.development";
+import { Fragment } from "react";
 
 function App() {
   const [page, setPage] = useState(0);
@@ -23,13 +24,13 @@ function App() {
       });
   }, [page]);
   return (
-    <>
+    <Fragment>
       <Header />
       <div className="box">
         <ProductList data={data} />
       </div>
       <Button setPage={setPage} page={page} />
-    </>
+    </Fragment>
   );
 }
 
