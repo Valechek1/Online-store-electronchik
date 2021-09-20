@@ -1,15 +1,16 @@
 $size: 5px;
 $posit: 0 auto;
+$center: center;
 
 .conteiner {
   margin: $posit;
   display: flex;
   flex-direction: column;
   box-shadow: $size $size 10px $size rgb(10, 10, 9);
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 44vw;
+  align-items: $center;
+  justify-content: $center;
+  text-align: $center;
+  max-width: 44vw;
   height: 30vw;
   margin-top: 2vw;
   border-radius: 10%;
@@ -45,7 +46,7 @@ $posit: 0 auto;
 .colored {
   line-height: 1;
   display: grid;
-  place-items: center;
+  place-items: $center;
   border-radius: 30px;
 }
 
