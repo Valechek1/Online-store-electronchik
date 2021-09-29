@@ -3,9 +3,7 @@ import Header from "../Header/Header";
 import Button from "../Button/Button";
 import ProductList from "../ProductList/ProductList";
 import { getProductList } from "../api";
-import { useEffect } from "react";
-import { useState } from "react";
-import { Fragment } from "react";
+import { useEffect, useState, Fragment } from "react";
 
 function App() {
   const [page, setPage] = useState(0);
